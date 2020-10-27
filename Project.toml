@@ -10,3 +10,10 @@ CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
 QML = "2db162a6-7e43-52c3-8d84-290c1c42d82a"
+
+[extras]
+Coverage = "a2441757-f6aa-5fb2-8edb-039e3f45d037"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Coverage", "Test"]
