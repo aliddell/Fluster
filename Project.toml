@@ -1,0 +1,12 @@
+name = "Fluster"
+uuid = "3289b2ef-4de6-493f-a988-a86a8ed11ceb"
+authors = ["Alan Liddell <alan.c.liddell@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
+CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+QML = "2db162a6-7e43-52c3-8d84-290c1c42d82a"
