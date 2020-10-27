@@ -9,3 +9,8 @@ end
 @testset "Python env" begin
     @test joinpath(Conda.python_dir(FLUSTER_ENV), syspy()) == PyCall.pyprogramname
 end
+
+@testset "Imports OK" begin
+    @test PyCall.pyimport("spikeinterface") isa PyCall.PyObject
+    @test PyCall.pyimport("pynwb") isa PyCall.PyObject
+end
