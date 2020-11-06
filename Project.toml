@@ -4,9 +4,8 @@ authors = ["Alan Liddell <alan.c.liddell@gmail.com>"]
 version = "0.1.0"
 
 [deps]
-CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
-CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
